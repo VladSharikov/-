@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.body {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
+
+.tabs {
+    margin-top: 15px;
+    margin-bottom: 118px;
+}
+
+.tabs__elem {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.tabs__elem_activ {
+    width: 203px;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+    background-color: white;
+    position: relative;
+    border-bottom-color: white;
+    top: 1px;
+    cursor: pointer;
+
+}
+
+.tabs__elem_unactiv {
+    width: 184px;
+    height: 40px;
+    background-color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.tabs__elem_activ-text {
+    color: #333;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tabs__elem_unactiv-text {
+    color: #333;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tabs__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid #C6CBCD;
+
+}
+
+.tabs__block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 55px 30px 54px 100px;
+}
+
+.tabs__block__title {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 57px;
+}
+
+
+.tabs__block-txt {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tabs__block-txt:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.tabs__block-img {
+    flex-shrink: 0;
+    width: 470px;
+    height: auto;
+}
+
+.tabs__block_btn{
+    background-color: #EC7979 ;
+    width: 270px;
+    height: 58px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 84px;
+    cursor: pointer;
+}
+
+.tabs__block_btn-txt{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}

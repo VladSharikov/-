@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background: rgb(245, 245, 245);
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    line-height: normal;
+    color: black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line {
+    width: 170px;
+    height: 1px;
+    background-color: #ec7979;
+    margin: 0 auto 40px;
+}
+
+.block_p {
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 79px;
+}
+
+.flex_block {
+    display: flex;
+    flex-shrink: 0;
+    column-gap: 28px;
+}
+
+.flex_block_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 83px;
+}
+
+.flex_block_card:nth-child(2){
+    box-shadow: 0px 4px 10px 0px rgba(51, 51, 51, 0.2);
+}
+
+.flex_block_first {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 370px;
+    height: 60px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_block_second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    width: 370px;
+    height: 100px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+}
+
+.flex_block_third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    width: 370px;
+    height: 50px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+}
+
+.flex_block_el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(134, 135, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 370px;
+    height: 50px;
+    background: #FFF;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(255, 255, 255);
+}
